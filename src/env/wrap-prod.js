@@ -7,7 +7,7 @@ export default {
     domain: 'jhs360.com',
     apis: {
         main: {
-            url: 'http://www.jhs360.com/f/api',
+            url: 'http://180.168.159.59:9101/f/api',
             apiKey: 'hsbankWebsite',
             secretKey: 'CE0E77B2104D7CA4886AB49BA9D00E6B'
         },
