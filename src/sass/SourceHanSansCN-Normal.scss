@@ -1,0 +1,8 @@
+@import "./variables";
+//思源常规字体
+@font-face {
+  font-family:'SourceHanSansCN-Normal';
+  src: url('#{$font-path}/SourceHanSansCN-Normal.ttf');
+  font-weight: normal;
+  font-style: normal;
+}

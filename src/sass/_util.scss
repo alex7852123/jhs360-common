@@ -1,0 +1,44 @@
+.relative{
+	position: relative;
+}
+.fl {float: left;}
+.fr {float: right;}
+.tl {text-align: left;}
+.tr {text-align: right;}
+.tc {text-align: center;}
+.block {display: block;}
+.none {display:none}
+.clear {clear: both;}
+.mb20 {margin-bottom: 20px;}
+
+.col {
+  flex: 1;
+}
+
+//flex 帮助
+@for $i from 1 through 12 {
+  .col-#{$i} {
+    flex-basis: '#{100 * $i / 12}%';
+    width: '#{100 * $i / 12}%';
+  }
+  .w-#{$i*10} {
+    flex-basis: #{$i*10}px;
+    width: #{$i*10}px;
+  }
+}
+
+.disabled {
+  pointer-events: none;
+  cursor: not-allowed;
+}
+
+.wh-center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.wh-full{
+  height: 100%;
+  width: 100%;
+}

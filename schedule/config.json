@@ -1,0 +1,8 @@
+{
+    "accounts": [
+        ["mobile", "password"]
+    ],
+    "schedule": {
+        "hour": [1, 13]
+    }
+}
